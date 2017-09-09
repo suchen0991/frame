@@ -1,0 +1,17 @@
+{
+    "name": "sc/frame",
+    "description": "后盾网c86框架",
+    "require": {
+        "filp/whoops": "^2.1"
+    },
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\",
+            "system\\":"system\\"
+        }
+    }
+}
